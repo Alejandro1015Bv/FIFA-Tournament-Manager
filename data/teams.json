@@ -1,0 +1,3475 @@
+{
+ "schemaVersion": 2,
+ "_note": "Catálogo editable. Logos de FootyLogos (https://www.footylogos.com/es): las marcas pertenecen a sus titulares. Plantillas según las páginas de FootyLogos consultadas el 12-oct-2026; no se garantiza que cada equipo esté en una edición concreta de EA SPORTS FC. Los equipos con legacy:true solo existen para que los torneos guardados antes de este cambio sigan mostrando su equipo.",
+ "teams": [
+  {
+   "id": "mexico-national-team",
+   "name": "México",
+   "shortName": "MÉX",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/mexico-national-team/mexico-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de México",
+   "aliases": [
+    "nt-mexico"
+   ]
+  },
+  {
+   "id": "south-korea-national-team",
+   "name": "Corea del Sur",
+   "shortName": "COR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/south-korea-national-team/south-korea-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Corea del Sur",
+   "aliases": [
+    "nt-corea-del-sur"
+   ]
+  },
+  {
+   "id": "czechia-national-team",
+   "name": "Chequia",
+   "shortName": "CHE",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/czechia-national-team/czechia-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Chequia"
+  },
+  {
+   "id": "south-africa-national-team",
+   "name": "Sudáfrica",
+   "shortName": "SUD",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/south-africa-national-team/south-africa-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Sudáfrica"
+  },
+  {
+   "id": "canada-national-team",
+   "name": "Canadá",
+   "shortName": "CAN",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/canada-national-team/canada-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Canadá",
+   "aliases": [
+    "nt-canada"
+   ]
+  },
+  {
+   "id": "switzerland-national-team",
+   "name": "Suiza",
+   "shortName": "SUI",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/switzerland-national-team/switzerland-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Suiza",
+   "aliases": [
+    "nt-suiza"
+   ]
+  },
+  {
+   "id": "qatar-national-team",
+   "name": "Catar",
+   "shortName": "CAT",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/qatar-national-team/qatar-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Catar",
+   "aliases": [
+    "nt-catar"
+   ]
+  },
+  {
+   "id": "bosnia-and-herzegovina-national-team",
+   "name": "Bosnia y Herzegovina",
+   "shortName": "BOS",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/bosnia-and-herzegovina-national-team/bosnia-and-herzegovina-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Bosnia y Herzegovina"
+  },
+  {
+   "id": "brazil-national-team",
+   "name": "Brasil",
+   "shortName": "BRA",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/brazil-national-team/brazil-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Brasil",
+   "aliases": [
+    "nt-brasil"
+   ]
+  },
+  {
+   "id": "morocco-national-team",
+   "name": "Marruecos",
+   "shortName": "MAR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/morocco-national-team/morocco-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Marruecos",
+   "aliases": [
+    "nt-marruecos"
+   ]
+  },
+  {
+   "id": "haiti-national-team",
+   "name": "Haití",
+   "shortName": "HAI",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/haiti-national-team/haiti-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Haití"
+  },
+  {
+   "id": "scotland-national-team",
+   "name": "Escocia",
+   "shortName": "ESC",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/scotland-national-team/scotland-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Escocia",
+   "aliases": [
+    "nt-escocia"
+   ]
+  },
+  {
+   "id": "usa-national-team",
+   "name": "Estados Unidos",
+   "shortName": "EST",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/usa-national-team/usa-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Estados Unidos",
+   "aliases": [
+    "nt-estados-unidos"
+   ]
+  },
+  {
+   "id": "paraguay-national-team",
+   "name": "Paraguay",
+   "shortName": "PAR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/paraguay-national-team/paraguay-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Paraguay",
+   "aliases": [
+    "nt-paraguay"
+   ]
+  },
+  {
+   "id": "australia-national-team",
+   "name": "Australia",
+   "shortName": "AUS",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/australia-national-team/australia-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Australia",
+   "aliases": [
+    "nt-australia"
+   ]
+  },
+  {
+   "id": "turkey-national-team",
+   "name": "Turquía",
+   "shortName": "TUR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/turkey-national-team/turkey-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Turquía",
+   "aliases": [
+    "nt-turquia"
+   ]
+  },
+  {
+   "id": "germany-national-team",
+   "name": "Alemania",
+   "shortName": "ALE",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/germany-national-team/germany-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Alemania",
+   "aliases": [
+    "nt-alemania"
+   ]
+  },
+  {
+   "id": "ecuador-national-team",
+   "name": "Ecuador",
+   "shortName": "ECU",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ecuador-national-team/ecuador-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Ecuador",
+   "aliases": [
+    "nt-ecuador"
+   ]
+  },
+  {
+   "id": "cote-d-ivoire-national-team",
+   "name": "Costa de Marfil",
+   "shortName": "COS",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/cote-d-ivoire-national-team/cote-d-ivoire-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Costa de Marfil",
+   "aliases": [
+    "nt-costa-de-marfil"
+   ]
+  },
+  {
+   "id": "curacao-national-team",
+   "name": "Curazao",
+   "shortName": "CUR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/curacao-national-team/curacao-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Curazao"
+  },
+  {
+   "id": "netherlands-national-team-dutch",
+   "name": "Países Bajos",
+   "shortName": "PAÍ",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/netherlands-national-team-dutch/netherlands-national-team-dutch-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Países Bajos",
+   "aliases": [
+    "nt-paises-bajos"
+   ]
+  },
+  {
+   "id": "japan-national-team",
+   "name": "Japón",
+   "shortName": "JAP",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/japan-national-team/japan-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Japón",
+   "aliases": [
+    "nt-japon"
+   ]
+  },
+  {
+   "id": "tunisia-national-team",
+   "name": "Túnez",
+   "shortName": "TÚN",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/tunisia-national-team/tunisia-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Túnez",
+   "aliases": [
+    "nt-tunez"
+   ]
+  },
+  {
+   "id": "sweden-national-team",
+   "name": "Suecia",
+   "shortName": "SUE",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sweden-national-team/sweden-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Suecia",
+   "aliases": [
+    "nt-suecia"
+   ]
+  },
+  {
+   "id": "belgium-national-team",
+   "name": "Bélgica",
+   "shortName": "BÉL",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/belgium-national-team/belgium-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Bélgica",
+   "aliases": [
+    "nt-belgica"
+   ]
+  },
+  {
+   "id": "egypt-national-team",
+   "name": "Egipto",
+   "shortName": "EGI",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/egypt-national-team/egypt-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Egipto",
+   "aliases": [
+    "nt-egipto"
+   ]
+  },
+  {
+   "id": "iran-national-team",
+   "name": "Irán",
+   "shortName": "IRÁ",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/iran-national-team/iran-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Irán",
+   "aliases": [
+    "nt-iran"
+   ]
+  },
+  {
+   "id": "new-zealand-national-team",
+   "name": "Nueva Zelanda",
+   "shortName": "NUE",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/new-zealand-national-team/new-zealand-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Nueva Zelanda"
+  },
+  {
+   "id": "spain-national-team",
+   "name": "España",
+   "shortName": "ESP",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/spain-national-team/spain-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de España",
+   "aliases": [
+    "nt-espana"
+   ]
+  },
+  {
+   "id": "uruguay-national-team",
+   "name": "Uruguay",
+   "shortName": "URU",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/uruguay-national-team/uruguay-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Uruguay",
+   "aliases": [
+    "nt-uruguay"
+   ]
+  },
+  {
+   "id": "saudi-arabia-national-team",
+   "name": "Arabia Saudita",
+   "shortName": "ARA",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/saudi-arabia-national-team/saudi-arabia-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Arabia Saudita"
+  },
+  {
+   "id": "cabo-verde-national-team",
+   "name": "Cabo Verde",
+   "shortName": "CAB",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/cabo-verde-national-team/cabo-verde-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Cabo Verde"
+  },
+  {
+   "id": "france-national-team",
+   "name": "Francia",
+   "shortName": "FRA",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/france-national-team/france-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Francia",
+   "aliases": [
+    "nt-francia"
+   ]
+  },
+  {
+   "id": "senegal-national-team",
+   "name": "Senegal",
+   "shortName": "SEN",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/senegal-national-team/senegal-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Senegal",
+   "aliases": [
+    "nt-senegal"
+   ]
+  },
+  {
+   "id": "norway-national-team",
+   "name": "Noruega",
+   "shortName": "NOR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/norway-national-team/norway-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Noruega",
+   "aliases": [
+    "nt-noruega"
+   ]
+  },
+  {
+   "id": "iraq-national-team",
+   "name": "Irak",
+   "shortName": "IRA",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/iraq-national-team/iraq-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Irak"
+  },
+  {
+   "id": "argentina-national-team",
+   "name": "Argentina",
+   "shortName": "ARG",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/argentina-national-team/argentina-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Argentina",
+   "aliases": [
+    "nt-argentina"
+   ]
+  },
+  {
+   "id": "algeria-national-team",
+   "name": "Argelia",
+   "shortName": "ARG",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/algeria-national-team/algeria-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Argelia",
+   "aliases": [
+    "nt-argelia"
+   ]
+  },
+  {
+   "id": "austria-national-team",
+   "name": "Austria",
+   "shortName": "AUS",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/austria-national-team/austria-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Austria",
+   "aliases": [
+    "nt-austria"
+   ]
+  },
+  {
+   "id": "jordan-national-team",
+   "name": "Jordania",
+   "shortName": "JOR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/jordan-national-team/jordan-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Jordania"
+  },
+  {
+   "id": "portugal-national-team",
+   "name": "Portugal",
+   "shortName": "POR",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/portugal-national-team/portugal-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Portugal",
+   "aliases": [
+    "nt-portugal"
+   ]
+  },
+  {
+   "id": "colombia-national-team",
+   "name": "Colombia",
+   "shortName": "COL",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/colombia-national-team/colombia-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Colombia",
+   "aliases": [
+    "nt-colombia"
+   ]
+  },
+  {
+   "id": "uzbekistan-national-team",
+   "name": "Uzbekistán",
+   "shortName": "UZB",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/uzbekistan-national-team/uzbekistan-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Uzbekistán"
+  },
+  {
+   "id": "dr-congo-national-team",
+   "name": "RD del Congo",
+   "shortName": "RD ",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/dr-congo-national-team/dr-congo-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de RD del Congo"
+  },
+  {
+   "id": "england-national-team",
+   "name": "Inglaterra",
+   "shortName": "ING",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/england-national-team/england-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Inglaterra",
+   "aliases": [
+    "nt-inglaterra"
+   ]
+  },
+  {
+   "id": "croatia-national-team",
+   "name": "Croacia",
+   "shortName": "CRO",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/croatia-national-team/croatia-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Croacia",
+   "aliases": [
+    "nt-croacia"
+   ]
+  },
+  {
+   "id": "ghana-national-team",
+   "name": "Ghana",
+   "shortName": "GHA",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ghana-national-team/ghana-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Ghana",
+   "aliases": [
+    "nt-ghana"
+   ]
+  },
+  {
+   "id": "panama-national-team",
+   "name": "Panamá",
+   "shortName": "PAN",
+   "kind": "national-team",
+   "competitionIds": [
+    "world-cup"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/panama-national-team/panama-national-team-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de la selección de Panamá"
+  },
+  {
+   "id": "aek-athens",
+   "name": "AEK Athens",
+   "shortName": "AA",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/aek-athens/aek-athens-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AEK Athens"
+  },
+  {
+   "id": "arsenal",
+   "name": "Arsenal",
+   "shortName": "ARS",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/arsenal/arsenal-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Arsenal",
+   "aliases": [
+    "club-arsenal"
+   ]
+  },
+  {
+   "id": "aston-villa",
+   "name": "Aston Villa",
+   "shortName": "AV",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/aston-villa/aston-villa-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Aston Villa",
+   "aliases": [
+    "club-aston-villa"
+   ]
+  },
+  {
+   "id": "atletico-madrid",
+   "name": "Atlético de Madrid",
+   "shortName": "AD",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/atletico-madrid/atletico-madrid-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Atlético de Madrid",
+   "aliases": [
+    "club-atletico-de-madrid"
+   ]
+  },
+  {
+   "id": "bayern-munich",
+   "name": "Bayern Munich",
+   "shortName": "BM",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/bayern-munich/bayern-munich-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Bayern Munich",
+   "aliases": [
+    "club-fc-bayern-munchen"
+   ]
+  },
+  {
+   "id": "borussia-dortmund",
+   "name": "Borussia Dortmund",
+   "shortName": "BD",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/borussia-dortmund/borussia-dortmund-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Borussia Dortmund",
+   "aliases": [
+    "club-borussia-dortmund"
+   ]
+  },
+  {
+   "id": "club-brugge",
+   "name": "Club Brugge",
+   "shortName": "CB",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/club-brugge/club-brugge-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Club Brugge",
+   "aliases": [
+    "club-club-brugge"
+   ]
+  },
+  {
+   "id": "como-1907",
+   "name": "Como 1907",
+   "shortName": "C1",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/como-1907/como-1907-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Como 1907"
+  },
+  {
+   "id": "fc-barcelona",
+   "name": "FC Barcelona",
+   "shortName": "FB",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fc-barcelona/fc-barcelona-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FC Barcelona",
+   "aliases": [
+    "club-fc-barcelona"
+   ]
+  },
+  {
+   "id": "fc-porto",
+   "name": "FC Porto",
+   "shortName": "FP",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fc-porto/fc-porto-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FC Porto",
+   "aliases": [
+    "club-fc-porto"
+   ]
+  },
+  {
+   "id": "fenerbahce",
+   "name": "Fenerbahçe",
+   "shortName": "FEN",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fenerbahce/fenerbahce-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Fenerbahçe",
+   "aliases": [
+    "club-fenerbahce"
+   ]
+  },
+  {
+   "id": "feyenoord",
+   "name": "Feyenoord",
+   "shortName": "FEY",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/feyenoord/feyenoord-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Feyenoord",
+   "aliases": [
+    "club-feyenoord"
+   ]
+  },
+  {
+   "id": "fk-bodo-glimt",
+   "name": "FK Bodø/Glimt",
+   "shortName": "FB",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fk-bodo-glimt/fk-bodo-glimt-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FK Bodø/Glimt"
+  },
+  {
+   "id": "galatasaray",
+   "name": "Galatasaray",
+   "shortName": "GAL",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/galatasaray/galatasaray-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Galatasaray",
+   "aliases": [
+    "club-galatasaray"
+   ]
+  },
+  {
+   "id": "inter-milan",
+   "name": "Inter Milan",
+   "shortName": "IM",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/inter-milan/inter-milan-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Inter Milan",
+   "aliases": [
+    "club-inter"
+   ]
+  },
+  {
+   "id": "lask",
+   "name": "LASK",
+   "shortName": "LAS",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/lask/lask-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de LASK"
+  },
+  {
+   "id": "liverpool-fc",
+   "name": "Liverpool FC",
+   "shortName": "LF",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/liverpool-fc/liverpool-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Liverpool FC",
+   "aliases": [
+    "club-liverpool"
+   ]
+  },
+  {
+   "id": "losc-lille",
+   "name": "LOSC Lille",
+   "shortName": "LL",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/losc-lille/losc-lille-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de LOSC Lille",
+   "aliases": [
+    "club-losc-lille"
+   ]
+  },
+  {
+   "id": "manchester-city",
+   "name": "Manchester City",
+   "shortName": "MC",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/manchester-city/manchester-city-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Manchester City",
+   "aliases": [
+    "club-manchester-city"
+   ]
+  },
+  {
+   "id": "manchester-united",
+   "name": "Manchester United",
+   "shortName": "MU",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/manchester-united/manchester-united-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Manchester United",
+   "aliases": [
+    "club-manchester-united"
+   ]
+  },
+  {
+   "id": "napoli",
+   "name": "Napoli",
+   "shortName": "NAP",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/napoli/napoli-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Napoli",
+   "aliases": [
+    "club-napoli"
+   ]
+  },
+  {
+   "id": "paris-saint-germain-psg",
+   "name": "Paris Saint-Germain",
+   "shortName": "PS",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/paris-saint-germain-psg/paris-saint-germain-psg-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Paris Saint-Germain",
+   "aliases": [
+    "club-paris-saint-germain"
+   ]
+  },
+  {
+   "id": "psv-eindhoven",
+   "name": "PSV Eindhoven",
+   "shortName": "PE",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/psv-eindhoven/psv-eindhoven-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de PSV Eindhoven",
+   "aliases": [
+    "club-psv-eindhoven"
+   ]
+  },
+  {
+   "id": "rb-leipzig",
+   "name": "RB Leipzig",
+   "shortName": "RL",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/rb-leipzig/rb-leipzig-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de RB Leipzig",
+   "aliases": [
+    "club-rb-leipzig"
+   ]
+  },
+  {
+   "id": "rc-lens",
+   "name": "RC Lens",
+   "shortName": "RL",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/rc-lens/rc-lens-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de RC Lens",
+   "aliases": [
+    "club-rc-lens"
+   ]
+  },
+  {
+   "id": "real-betis-balompie",
+   "name": "Real Betis Balompié",
+   "shortName": "RB",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/real-betis-balompie/real-betis-balompie-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Real Betis Balompié",
+   "aliases": [
+    "club-real-betis"
+   ]
+  },
+  {
+   "id": "real-madrid",
+   "name": "Real Madrid",
+   "shortName": "RM",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/real-madrid/real-madrid-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Real Madrid",
+   "aliases": [
+    "club-real-madrid"
+   ]
+  },
+  {
+   "id": "roma",
+   "name": "AS Roma",
+   "shortName": "AR",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/roma/roma-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AS Roma",
+   "aliases": [
+    "club-as-roma"
+   ]
+  },
+  {
+   "id": "sabah-fk",
+   "name": "Sabah FK",
+   "shortName": "SF",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sabah-fk/sabah-fk-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sabah FK"
+  },
+  {
+   "id": "shakhtar-donetsk",
+   "name": "Shakhtar Donetsk",
+   "shortName": "SD",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/shakhtar-donetsk/shakhtar-donetsk-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Shakhtar Donetsk",
+   "aliases": [
+    "club-shakhtar-donetsk"
+   ]
+  },
+  {
+   "id": "sk-slovan-bratislava",
+   "name": "ŠK Slovan Bratislava",
+   "shortName": "ŠS",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sk-slovan-bratislava/sk-slovan-bratislava-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de ŠK Slovan Bratislava"
+  },
+  {
+   "id": "slavia-praha",
+   "name": "Slavia Praha",
+   "shortName": "SP",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/slavia-praha/slavia-praha-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Slavia Praha"
+  },
+  {
+   "id": "sporting-cp",
+   "name": "Sporting CP",
+   "shortName": "SC",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sporting-cp/sporting-cp-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sporting CP",
+   "aliases": [
+    "club-sporting-cp"
+   ]
+  },
+  {
+   "id": "vfb-stuttgart",
+   "name": "VfB Stuttgart",
+   "shortName": "VS",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/vfb-stuttgart/vfb-stuttgart-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de VfB Stuttgart",
+   "aliases": [
+    "club-vfb-stuttgart"
+   ]
+  },
+  {
+   "id": "viking-fk",
+   "name": "Viking FK",
+   "shortName": "VF",
+   "kind": "club",
+   "competitionIds": [
+    "ucl"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/viking-fk/viking-fk-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Viking FK"
+  },
+  {
+   "id": "villarreal-cf",
+   "name": "Villarreal CF",
+   "shortName": "VC",
+   "kind": "club",
+   "competitionIds": [
+    "ucl",
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/villarreal-cf/villarreal-cf-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Villarreal CF",
+   "aliases": [
+    "club-villarreal-cf"
+   ]
+  },
+  {
+   "id": "ac-milan",
+   "name": "AC Milan",
+   "shortName": "AM",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ac-milan/ac-milan-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AC Milan",
+   "aliases": [
+    "club-ac-milan"
+   ]
+  },
+  {
+   "id": "ac-omonia-nicosia",
+   "name": "AC Omonia Nicosia",
+   "shortName": "AO",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ac-omonia-nicosia/ac-omonia-nicosia-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AC Omonia Nicosia"
+  },
+  {
+   "id": "afc-bournemouth",
+   "name": "AFC Bournemouth",
+   "shortName": "AB",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/afc-bournemouth/afc-bournemouth-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AFC Bournemouth",
+   "aliases": [
+    "club-afc-bournemouth"
+   ]
+  },
+  {
+   "id": "az-alkmaar",
+   "name": "AZ Alkmaar",
+   "shortName": "AA",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/az-alkmaar/az-alkmaar-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AZ Alkmaar"
+  },
+  {
+   "id": "bayer-leverkusen",
+   "name": "Bayer Leverkusen",
+   "shortName": "BL",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/bayer-leverkusen/bayer-leverkusen-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Bayer Leverkusen"
+  },
+  {
+   "id": "besiktas",
+   "name": "Beşiktaş",
+   "shortName": "BEŞ",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/besiktas/besiktas-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Beşiktaş"
+  },
+  {
+   "id": "celta-vigo",
+   "name": "Celta de Vigo",
+   "shortName": "CD",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/celta-vigo/celta-vigo-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Celta de Vigo",
+   "aliases": [
+    "club-celta-de-vigo"
+   ]
+  },
+  {
+   "id": "celtic",
+   "name": "Celtic",
+   "shortName": "CEL",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/celtic/celtic-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Celtic",
+   "aliases": [
+    "club-celtic"
+   ]
+  },
+  {
+   "id": "crystal-palace",
+   "name": "Crystal Palace",
+   "shortName": "CP",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/crystal-palace/crystal-palace-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Crystal Palace",
+   "aliases": [
+    "club-crystal-palace"
+   ]
+  },
+  {
+   "id": "fc-ararat-armenia",
+   "name": "FC Ararat-Armenia",
+   "shortName": "FA",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fc-ararat-armenia/fc-ararat-armenia-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FC Ararat-Armenia"
+  },
+  {
+   "id": "ferencvaros-tc",
+   "name": "Ferencváros TC",
+   "shortName": "FT",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ferencvaros-tc/ferencvaros-tc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Ferencváros TC"
+  },
+  {
+   "id": "gnk-dinamo-zagreb",
+   "name": "GNK Dinamo Zagreb",
+   "shortName": "GD",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/gnk-dinamo-zagreb/gnk-dinamo-zagreb-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de GNK Dinamo Zagreb"
+  },
+  {
+   "id": "hapoel-beer-sheva",
+   "name": "Hapoel Beer Sheva",
+   "shortName": "HB",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/hapoel-beer-sheva/hapoel-beer-sheva-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Hapoel Beer Sheva"
+  },
+  {
+   "id": "jagiellonia-bialystok",
+   "name": "Jagiellonia Białystok",
+   "shortName": "JB",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/jagiellonia-bialystok/jagiellonia-bialystok-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Jagiellonia Białystok"
+  },
+  {
+   "id": "juventus",
+   "name": "Juventus",
+   "shortName": "JUV",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/juventus/juventus-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Juventus",
+   "aliases": [
+    "club-juventus"
+   ]
+  },
+  {
+   "id": "lech-poznan",
+   "name": "Lech Poznań",
+   "shortName": "LP",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/lech-poznan/lech-poznan-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Lech Poznań"
+  },
+  {
+   "id": "levski-sofia",
+   "name": "Levski Sofia",
+   "shortName": "LS",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/levski-sofia/levski-sofia-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Levski Sofia"
+  },
+  {
+   "id": "lillestrom-sk",
+   "name": "Lillestrøm SK",
+   "shortName": "LS",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/lillestrom-sk/lillestrom-sk-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Lillestrøm SK"
+  },
+  {
+   "id": "nec-nijmegen",
+   "name": "NEC Nijmegen",
+   "shortName": "NN",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/nec-nijmegen/nec-nijmegen-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de NEC Nijmegen"
+  },
+  {
+   "id": "nk-celje",
+   "name": "NK Celje",
+   "shortName": "NC",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/nk-celje/nk-celje-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de NK Celje"
+  },
+  {
+   "id": "ofi-crete",
+   "name": "OFI Crete",
+   "shortName": "OC",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ofi-crete/ofi-crete-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de OFI Crete"
+  },
+  {
+   "id": "olympiacos",
+   "name": "Olympiacos",
+   "shortName": "OLY",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/olympiacos/olympiacos-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Olympiacos",
+   "aliases": [
+    "club-olympiacos"
+   ]
+  },
+  {
+   "id": "olympique-de-marseille-om",
+   "name": "Olympique de Marseille",
+   "shortName": "OD",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/olympique-de-marseille-om/olympique-de-marseille-om-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Olympique de Marseille",
+   "aliases": [
+    "club-olympique-de-marseille"
+   ]
+  },
+  {
+   "id": "olympique-lyonnais",
+   "name": "Olympique Lyonnais",
+   "shortName": "OL",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/olympique-lyonnais/olympique-lyonnais-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Olympique Lyonnais",
+   "aliases": [
+    "club-olympique-lyonnais"
+   ]
+  },
+  {
+   "id": "real-sociedad",
+   "name": "Real Sociedad",
+   "shortName": "RS",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/real-sociedad/real-sociedad-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Real Sociedad",
+   "aliases": [
+    "club-real-sociedad"
+   ]
+  },
+  {
+   "id": "red-bull-salzburg",
+   "name": "Red Bull Salzburg",
+   "shortName": "RB",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/red-bull-salzburg/red-bull-salzburg-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Red Bull Salzburg",
+   "aliases": [
+    "club-red-bull-salzburg"
+   ]
+  },
+  {
+   "id": "rsc-anderlecht",
+   "name": "RSC Anderlecht",
+   "shortName": "RA",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/rsc-anderlecht/rsc-anderlecht-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de RSC Anderlecht"
+  },
+  {
+   "id": "scu-torreense",
+   "name": "S.C.U. Torreense",
+   "shortName": "ST",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/scu-torreense/scu-torreense-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de S.C.U. Torreense"
+  },
+  {
+   "id": "sk-sturm-graz",
+   "name": "SK Sturm Graz",
+   "shortName": "SS",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sk-sturm-graz/sk-sturm-graz-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de SK Sturm Graz"
+  },
+  {
+   "id": "sl-benfica",
+   "name": "SL Benfica",
+   "shortName": "SB",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sl-benfica/sl-benfica-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de SL Benfica",
+   "aliases": [
+    "club-benfica"
+   ]
+  },
+  {
+   "id": "sparta-praha",
+   "name": "Sparta Praha",
+   "shortName": "SP",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sparta-praha/sparta-praha-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sparta Praha"
+  },
+  {
+   "id": "stade-rennais",
+   "name": "Stade Rennais",
+   "shortName": "SR",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/stade-rennais/stade-rennais-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Stade Rennais",
+   "aliases": [
+    "club-stade-rennais"
+   ]
+  },
+  {
+   "id": "sunderland",
+   "name": "Sunderland",
+   "shortName": "SUN",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sunderland/sunderland-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sunderland",
+   "aliases": [
+    "club-sunderland"
+   ]
+  },
+  {
+   "id": "tsg-hoffenheim",
+   "name": "TSG Hoffenheim",
+   "shortName": "TH",
+   "kind": "club",
+   "competitionIds": [
+    "uel",
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/tsg-hoffenheim/tsg-hoffenheim-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de TSG Hoffenheim",
+   "aliases": [
+    "club-tsg-hoffenheim"
+   ]
+  },
+  {
+   "id": "union-saint-gilloise",
+   "name": "Union Saint-Gilloise",
+   "shortName": "US",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/union-saint-gilloise/union-saint-gilloise-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Union Saint-Gilloise"
+  },
+  {
+   "id": "viktoria-plzen",
+   "name": "Viktoria Plzeň",
+   "shortName": "VP",
+   "kind": "club",
+   "competitionIds": [
+    "uel"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/viktoria-plzen/viktoria-plzen-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Viktoria Plzeň"
+  },
+  {
+   "id": "flamengo",
+   "name": "Flamengo",
+   "shortName": "FLA",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/flamengo/flamengo-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Flamengo"
+  },
+  {
+   "id": "estudiantes-de-la-plata",
+   "name": "Estudiantes de La Plata",
+   "shortName": "ED",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/estudiantes-de-la-plata/estudiantes-de-la-plata-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Estudiantes de La Plata"
+  },
+  {
+   "id": "cusco",
+   "name": "Cusco FC",
+   "shortName": "CF",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/cusco/cusco-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Cusco FC"
+  },
+  {
+   "id": "independiente-medellin",
+   "name": "Independiente Medellín",
+   "shortName": "IM",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/independiente-medellin/independiente-medellin-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Independiente Medellín"
+  },
+  {
+   "id": "nacional",
+   "name": "Nacional",
+   "shortName": "NAC",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/nacional/nacional-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Nacional"
+  },
+  {
+   "id": "universitario-peru",
+   "name": "Universitario",
+   "shortName": "UNI",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/universitario-peru/universitario-peru-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Universitario"
+  },
+  {
+   "id": "coquimbo-unido",
+   "name": "Coquimbo Unido",
+   "shortName": "CU",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/coquimbo-unido/coquimbo-unido-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Coquimbo Unido"
+  },
+  {
+   "id": "deportes-tolima",
+   "name": "Deportes Tolima",
+   "shortName": "DT",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/deportes-tolima/deportes-tolima-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Deportes Tolima"
+  },
+  {
+   "id": "fluminense",
+   "name": "Fluminense",
+   "shortName": "FLU",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fluminense/fluminense-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Fluminense"
+  },
+  {
+   "id": "bolivar",
+   "name": "Bolívar",
+   "shortName": "BOL",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/bolivar/bolivar-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Bolívar"
+  },
+  {
+   "id": "deportivo-la-guaira",
+   "name": "Deportivo La Guaira",
+   "shortName": "DL",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/deportivo-la-guaira/deportivo-la-guaira-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Deportivo La Guaira"
+  },
+  {
+   "id": "independiente-rivadavia",
+   "name": "Independiente Rivadavia",
+   "shortName": "IR",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/independiente-rivadavia/independiente-rivadavia-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Independiente Rivadavia"
+  },
+  {
+   "id": "boca-juniors",
+   "name": "Boca Juniors",
+   "shortName": "BJ",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/boca-juniors/boca-juniors-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Boca Juniors"
+  },
+  {
+   "id": "cruzeiro",
+   "name": "Cruzeiro",
+   "shortName": "CRU",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/cruzeiro/cruzeiro-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Cruzeiro"
+  },
+  {
+   "id": "universidad-catolica",
+   "name": "Universidad Católica",
+   "shortName": "UC",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/universidad-catolica/universidad-catolica-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Universidad Católica"
+  },
+  {
+   "id": "barcelona-sc-guayaquil",
+   "name": "Barcelona SC",
+   "shortName": "BS",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/barcelona-sc-guayaquil/barcelona-sc-guayaquil-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Barcelona SC"
+  },
+  {
+   "id": "penarol",
+   "name": "Peñarol",
+   "shortName": "PEÑ",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/penarol/penarol-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Peñarol"
+  },
+  {
+   "id": "corinthians",
+   "name": "Corinthians",
+   "shortName": "COR",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/corinthians/corinthians-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Corinthians"
+  },
+  {
+   "id": "independiente-santa-fe",
+   "name": "Independiente Santa Fe",
+   "shortName": "IS",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/independiente-santa-fe/independiente-santa-fe-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Independiente Santa Fe"
+  },
+  {
+   "id": "atletico-platense",
+   "name": "Atlético Platense",
+   "shortName": "AP",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/atletico-platense/atletico-platense-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Atlético Platense"
+  },
+  {
+   "id": "palmeiras",
+   "name": "Palmeiras",
+   "shortName": "PAL",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/palmeiras/palmeiras-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Palmeiras"
+  },
+  {
+   "id": "cerro-porteno",
+   "name": "Cerro Porteño",
+   "shortName": "CP",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/cerro-porteno/cerro-porteno-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Cerro Porteño"
+  },
+  {
+   "id": "atletico-junior",
+   "name": "Junior de Barranquilla",
+   "shortName": "JD",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/atletico-junior/atletico-junior-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Junior de Barranquilla"
+  },
+  {
+   "id": "sporting-cristal",
+   "name": "Sporting Cristal",
+   "shortName": "SC",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sporting-cristal/sporting-cristal-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sporting Cristal"
+  },
+  {
+   "id": "ldu-quito",
+   "name": "LDU Quito",
+   "shortName": "LQ",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ldu-quito/ldu-quito-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de LDU Quito"
+  },
+  {
+   "id": "lanus",
+   "name": "Lanús",
+   "shortName": "LAN",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/lanus/lanus-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Lanús"
+  },
+  {
+   "id": "always-ready",
+   "name": "Always Ready",
+   "shortName": "AR",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/always-ready/always-ready-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Always Ready"
+  },
+  {
+   "id": "mirassol-fc",
+   "name": "Mirassol FC",
+   "shortName": "MF",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/mirassol-fc/mirassol-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Mirassol FC"
+  },
+  {
+   "id": "independiente-del-valle",
+   "name": "Independiente del Valle",
+   "shortName": "ID",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/independiente-del-valle/independiente-del-valle-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Independiente del Valle"
+  },
+  {
+   "id": "club-libertad",
+   "name": "Club Libertad",
+   "shortName": "CL",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/club-libertad/club-libertad-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Club Libertad"
+  },
+  {
+   "id": "rosario-central",
+   "name": "Rosario Central",
+   "shortName": "RC",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/rosario-central/rosario-central-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Rosario Central"
+  },
+  {
+   "id": "universidad-central",
+   "name": "Universidad Central",
+   "shortName": "UC",
+   "kind": "club",
+   "competitionIds": [
+    "libertadores"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/universidad-central/universidad-central-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Universidad Central"
+  },
+  {
+   "id": "athletic-club-bilbao",
+   "name": "Athletic Club Bilbao",
+   "shortName": "AC",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/athletic-club-bilbao/athletic-club-bilbao-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Athletic Club Bilbao",
+   "aliases": [
+    "club-athletic-club"
+   ]
+  },
+  {
+   "id": "deportivo-alaves",
+   "name": "Deportivo Alavés",
+   "shortName": "DA",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/deportivo-alaves/deportivo-alaves-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Deportivo Alavés",
+   "aliases": [
+    "club-deportivo-alaves"
+   ]
+  },
+  {
+   "id": "deportivo-la-coruna",
+   "name": "Deportivo La Coruña",
+   "shortName": "DL",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/deportivo-la-coruna/deportivo-la-coruna-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Deportivo La Coruña"
+  },
+  {
+   "id": "elche-cf",
+   "name": "Elche CF",
+   "shortName": "EC",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/elche-cf/elche-cf-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Elche CF",
+   "aliases": [
+    "club-elche-cf"
+   ]
+  },
+  {
+   "id": "getafe-cf",
+   "name": "Getafe C. F.",
+   "shortName": "GC",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/getafe-cf/getafe-cf-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Getafe C. F.",
+   "aliases": [
+    "club-getafe-cf"
+   ]
+  },
+  {
+   "id": "levante-ud",
+   "name": "Levante UD",
+   "shortName": "LU",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/levante-ud/levante-ud-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Levante UD",
+   "aliases": [
+    "club-levante-ud"
+   ]
+  },
+  {
+   "id": "malaga-cf",
+   "name": "Málaga CF",
+   "shortName": "MC",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/malaga-cf/malaga-cf-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Málaga CF"
+  },
+  {
+   "id": "osasuna",
+   "name": "Osasuna",
+   "shortName": "OSA",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/osasuna/osasuna-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Osasuna",
+   "aliases": [
+    "club-ca-osasuna"
+   ]
+  },
+  {
+   "id": "racing-santander",
+   "name": "Racing Santander",
+   "shortName": "RS",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/racing-santander/racing-santander-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Racing Santander"
+  },
+  {
+   "id": "rayo-vallecano",
+   "name": "Rayo Vallecano",
+   "shortName": "RV",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/rayo-vallecano/rayo-vallecano-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Rayo Vallecano",
+   "aliases": [
+    "club-rayo-vallecano"
+   ]
+  },
+  {
+   "id": "rcd-espanyol-barcelona",
+   "name": "RCD Espanyol Barcelona",
+   "shortName": "RE",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/rcd-espanyol-barcelona/rcd-espanyol-barcelona-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de RCD Espanyol Barcelona",
+   "aliases": [
+    "club-rcd-espanyol"
+   ]
+  },
+  {
+   "id": "sevilla-fc",
+   "name": "Sevilla FC",
+   "shortName": "SF",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sevilla-fc/sevilla-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sevilla FC",
+   "aliases": [
+    "club-sevilla-fc"
+   ]
+  },
+  {
+   "id": "valencia-cf",
+   "name": "Valencia CF",
+   "shortName": "VC",
+   "kind": "club",
+   "competitionIds": [
+    "laliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/valencia-cf/valencia-cf-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Valencia CF",
+   "aliases": [
+    "club-valencia-cf"
+   ]
+  },
+  {
+   "id": "brentford",
+   "name": "Brentford",
+   "shortName": "BRE",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/brentford/brentford-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Brentford",
+   "aliases": [
+    "club-brentford"
+   ]
+  },
+  {
+   "id": "brighton-and-hove-albion",
+   "name": "Brighton & Hove Albion",
+   "shortName": "BH",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/brighton-and-hove-albion/brighton-and-hove-albion-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Brighton & Hove Albion",
+   "aliases": [
+    "club-brighton-hove-albion"
+   ]
+  },
+  {
+   "id": "chelsea",
+   "name": "Chelsea",
+   "shortName": "CHE",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/chelsea/chelsea-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Chelsea",
+   "aliases": [
+    "club-chelsea"
+   ]
+  },
+  {
+   "id": "coventry-city",
+   "name": "Coventry City",
+   "shortName": "CC",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/coventry-city/coventry-city-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Coventry City"
+  },
+  {
+   "id": "everton",
+   "name": "Everton",
+   "shortName": "EVE",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/everton/everton-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Everton",
+   "aliases": [
+    "club-everton"
+   ]
+  },
+  {
+   "id": "fulham",
+   "name": "Fulham",
+   "shortName": "FUL",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fulham/fulham-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Fulham",
+   "aliases": [
+    "club-fulham"
+   ]
+  },
+  {
+   "id": "hull-city",
+   "name": "Hull City",
+   "shortName": "HC",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/hull-city/hull-city-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Hull City"
+  },
+  {
+   "id": "ipswich-town",
+   "name": "Ipswich Town",
+   "shortName": "IT",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ipswich-town/ipswich-town-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Ipswich Town"
+  },
+  {
+   "id": "leeds-united",
+   "name": "Leeds United",
+   "shortName": "LU",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/leeds-united/leeds-united-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Leeds United",
+   "aliases": [
+    "club-leeds-united"
+   ]
+  },
+  {
+   "id": "newcastle-united",
+   "name": "Newcastle United",
+   "shortName": "NU",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/newcastle-united/newcastle-united-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Newcastle United",
+   "aliases": [
+    "club-newcastle-united"
+   ]
+  },
+  {
+   "id": "nottingham-forest",
+   "name": "Nottingham Forest",
+   "shortName": "NF",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/nottingham-forest/nottingham-forest-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Nottingham Forest",
+   "aliases": [
+    "club-nottingham-forest"
+   ]
+  },
+  {
+   "id": "tottenham-hotspur",
+   "name": "Tottenham Hotspur",
+   "shortName": "TH",
+   "kind": "club",
+   "competitionIds": [
+    "premier-league"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/tottenham-hotspur/tottenham-hotspur-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Tottenham Hotspur",
+   "aliases": [
+    "club-tottenham-hotspur"
+   ]
+  },
+  {
+   "id": "1-fc-koln",
+   "name": "1. FC Köln",
+   "shortName": "1F",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/1-fc-koln/1-fc-koln-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de 1. FC Köln",
+   "aliases": [
+    "club-1-fc-koln"
+   ]
+  },
+  {
+   "id": "borussia-monchengladbach",
+   "name": "Borussia Mönchengladbach",
+   "shortName": "BM",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/borussia-monchengladbach/borussia-monchengladbach-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Borussia Mönchengladbach",
+   "aliases": [
+    "club-borussia-monchengladbach"
+   ]
+  },
+  {
+   "id": "eintracht-frankfurt",
+   "name": "Eintracht Frankfurt",
+   "shortName": "EF",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/eintracht-frankfurt/eintracht-frankfurt-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Eintracht Frankfurt",
+   "aliases": [
+    "club-eintracht-frankfurt"
+   ]
+  },
+  {
+   "id": "fc-augsburg",
+   "name": "FC Augsburg",
+   "shortName": "FA",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fc-augsburg/fc-augsburg-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FC Augsburg",
+   "aliases": [
+    "club-fc-augsburg"
+   ]
+  },
+  {
+   "id": "hamburger-sv",
+   "name": "Hamburger SV",
+   "shortName": "HS",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/hamburger-sv/hamburger-sv-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Hamburger SV",
+   "aliases": [
+    "club-hamburger-sv"
+   ]
+  },
+  {
+   "id": "mainz-05",
+   "name": "Mainz 05",
+   "shortName": "M0",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/mainz-05/mainz-05-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Mainz 05",
+   "aliases": [
+    "club-1-fsv-mainz-05"
+   ]
+  },
+  {
+   "id": "sc-freiburg",
+   "name": "SC Freiburg",
+   "shortName": "SF",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sc-freiburg/sc-freiburg-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de SC Freiburg",
+   "aliases": [
+    "club-sc-freiburg"
+   ]
+  },
+  {
+   "id": "sc-paderborn-07",
+   "name": "SC Paderborn 07",
+   "shortName": "SP",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sc-paderborn-07/sc-paderborn-07-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de SC Paderborn 07"
+  },
+  {
+   "id": "schalke-04",
+   "name": "Schalke 04",
+   "shortName": "S0",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/schalke-04/schalke-04-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Schalke 04"
+  },
+  {
+   "id": "sv-elversberg",
+   "name": "SV Elversberg",
+   "shortName": "SE",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sv-elversberg/sv-elversberg-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de SV Elversberg"
+  },
+  {
+   "id": "union-berlin",
+   "name": "Union Berlin",
+   "shortName": "UB",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/union-berlin/union-berlin-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Union Berlin",
+   "aliases": [
+    "club-1-fc-union-berlin"
+   ]
+  },
+  {
+   "id": "werder-bremen",
+   "name": "Werder Bremen",
+   "shortName": "WB",
+   "kind": "club",
+   "competitionIds": [
+    "bundesliga"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/werder-bremen/werder-bremen-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Werder Bremen",
+   "aliases": [
+    "club-sv-werder-bremen"
+   ]
+  },
+  {
+   "id": "ac-monza",
+   "name": "AC Monza",
+   "shortName": "AM",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ac-monza/ac-monza-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AC Monza"
+  },
+  {
+   "id": "atalanta",
+   "name": "Atalanta",
+   "shortName": "ATA",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/atalanta/atalanta-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Atalanta",
+   "aliases": [
+    "club-atalanta"
+   ]
+  },
+  {
+   "id": "bologna",
+   "name": "Bologna",
+   "shortName": "BOL",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/bologna/bologna-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Bologna",
+   "aliases": [
+    "club-bologna"
+   ]
+  },
+  {
+   "id": "cagliari",
+   "name": "Cagliari",
+   "shortName": "CAG",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/cagliari/cagliari-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Cagliari",
+   "aliases": [
+    "club-cagliari"
+   ]
+  },
+  {
+   "id": "fiorentina",
+   "name": "Fiorentina",
+   "shortName": "FIO",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fiorentina/fiorentina-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Fiorentina",
+   "aliases": [
+    "club-fiorentina"
+   ]
+  },
+  {
+   "id": "frosinone-calcio",
+   "name": "Frosinone Calcio",
+   "shortName": "FC",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/frosinone-calcio/frosinone-calcio-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Frosinone Calcio"
+  },
+  {
+   "id": "genoa",
+   "name": "Genoa",
+   "shortName": "GEN",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/genoa/genoa-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Genoa",
+   "aliases": [
+    "club-genoa"
+   ]
+  },
+  {
+   "id": "lazio",
+   "name": "Lazio",
+   "shortName": "LAZ",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/lazio/lazio-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Lazio",
+   "aliases": [
+    "club-lazio"
+   ]
+  },
+  {
+   "id": "lecce",
+   "name": "Lecce",
+   "shortName": "LEC",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/lecce/lecce-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Lecce",
+   "aliases": [
+    "club-lecce"
+   ]
+  },
+  {
+   "id": "parma",
+   "name": "Parma",
+   "shortName": "PAR",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/parma/parma-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Parma",
+   "aliases": [
+    "club-parma"
+   ]
+  },
+  {
+   "id": "sassuolo",
+   "name": "Sassuolo",
+   "shortName": "SAS",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sassuolo/sassuolo-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sassuolo",
+   "aliases": [
+    "club-sassuolo"
+   ]
+  },
+  {
+   "id": "torino",
+   "name": "Torino",
+   "shortName": "TOR",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/torino/torino-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Torino",
+   "aliases": [
+    "club-torino"
+   ]
+  },
+  {
+   "id": "udinese",
+   "name": "Udinese",
+   "shortName": "UDI",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/udinese/udinese-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Udinese",
+   "aliases": [
+    "club-udinese"
+   ]
+  },
+  {
+   "id": "venezia-fc",
+   "name": "Venezia FC",
+   "shortName": "VF",
+   "kind": "club",
+   "competitionIds": [
+    "serie-a"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/venezia-fc/venezia-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Venezia FC"
+  },
+  {
+   "id": "aj-auxerre",
+   "name": "AJ Auxerre",
+   "shortName": "AA",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/aj-auxerre/aj-auxerre-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AJ Auxerre",
+   "aliases": [
+    "club-aj-auxerre"
+   ]
+  },
+  {
+   "id": "angers-sco",
+   "name": "Angers SCO",
+   "shortName": "AS",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/angers-sco/angers-sco-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Angers SCO",
+   "aliases": [
+    "club-angers-sco"
+   ]
+  },
+  {
+   "id": "as-monaco",
+   "name": "AS Monaco",
+   "shortName": "AM",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/as-monaco/as-monaco-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de AS Monaco",
+   "aliases": [
+    "club-as-monaco"
+   ]
+  },
+  {
+   "id": "fc-lorient",
+   "name": "FC Lorient",
+   "shortName": "FL",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fc-lorient/fc-lorient-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FC Lorient",
+   "aliases": [
+    "club-fc-lorient"
+   ]
+  },
+  {
+   "id": "le-havre-ac",
+   "name": "Le Havre AC",
+   "shortName": "LH",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/le-havre-ac/le-havre-ac-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Le Havre AC",
+   "aliases": [
+    "club-le-havre-ac"
+   ]
+  },
+  {
+   "id": "le-mans-fc",
+   "name": "Le Mans FC",
+   "shortName": "LM",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/le-mans-fc/le-mans-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Le Mans FC"
+  },
+  {
+   "id": "ogc-nice",
+   "name": "OGC Nice",
+   "shortName": "ON",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/ogc-nice/ogc-nice-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de OGC Nice",
+   "aliases": [
+    "club-ogc-nice"
+   ]
+  },
+  {
+   "id": "paris-fc",
+   "name": "Paris FC",
+   "shortName": "PF",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/paris-fc/paris-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Paris FC",
+   "aliases": [
+    "club-paris-fc"
+   ]
+  },
+  {
+   "id": "rc-strasbourg-alsace",
+   "name": "RC Strasbourg Alsace",
+   "shortName": "RS",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/rc-strasbourg-alsace/rc-strasbourg-alsace-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de RC Strasbourg Alsace",
+   "aliases": [
+    "club-rc-strasbourg"
+   ]
+  },
+  {
+   "id": "stade-brestois-29",
+   "name": "Stade Brestois 29",
+   "shortName": "SB",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/stade-brestois-29/stade-brestois-29-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Stade Brestois 29",
+   "aliases": [
+    "club-stade-brestois"
+   ]
+  },
+  {
+   "id": "toulouse-fc",
+   "name": "Toulouse FC",
+   "shortName": "TF",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/toulouse-fc/toulouse-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Toulouse FC",
+   "aliases": [
+    "club-toulouse-fc"
+   ]
+  },
+  {
+   "id": "troyes",
+   "name": "Troyes ESTAC",
+   "shortName": "TE",
+   "kind": "club",
+   "competitionIds": [
+    "ligue-1"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/troyes/troyes-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Troyes ESTAC"
+  },
+  {
+   "id": "atlanta-united",
+   "name": "Atlanta United",
+   "shortName": "AU",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/atlanta-united/atlanta-united-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Atlanta United"
+  },
+  {
+   "id": "charlotte-fc",
+   "name": "Charlotte FC",
+   "shortName": "CF",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/charlotte-fc/charlotte-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Charlotte FC"
+  },
+  {
+   "id": "chicago-fire",
+   "name": "Chicago Fire",
+   "shortName": "CF",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/chicago-fire/chicago-fire-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Chicago Fire"
+  },
+  {
+   "id": "fc-cincinnati",
+   "name": "FC Cincinnati",
+   "shortName": "FC",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fc-cincinnati/fc-cincinnati-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FC Cincinnati"
+  },
+  {
+   "id": "columbus-crew",
+   "name": "Columbus Crew",
+   "shortName": "CC",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/columbus-crew/columbus-crew-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Columbus Crew"
+  },
+  {
+   "id": "dc-united",
+   "name": "D.C. United",
+   "shortName": "DU",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/dc-united/dc-united-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de D.C. United"
+  },
+  {
+   "id": "inter-miami",
+   "name": "Inter Miami",
+   "shortName": "IM",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/inter-miami/inter-miami-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Inter Miami"
+  },
+  {
+   "id": "cf-montreal",
+   "name": "CF Montréal",
+   "shortName": "CM",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/cf-montreal/cf-montreal-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de CF Montréal"
+  },
+  {
+   "id": "nashville-sc",
+   "name": "Nashville SC",
+   "shortName": "NS",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/nashville-sc/nashville-sc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Nashville SC"
+  },
+  {
+   "id": "new-england-revolution",
+   "name": "New England Revolution",
+   "shortName": "NE",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/new-england-revolution/new-england-revolution-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de New England Revolution"
+  },
+  {
+   "id": "new-york-city-fc",
+   "name": "New York City FC",
+   "shortName": "NY",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/new-york-city-fc/new-york-city-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de New York City FC"
+  },
+  {
+   "id": "orlando-city",
+   "name": "Orlando City",
+   "shortName": "OC",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/orlando-city/orlando-city-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Orlando City"
+  },
+  {
+   "id": "philadelphia-union",
+   "name": "Philadelphia Union",
+   "shortName": "PU",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/philadelphia-union/philadelphia-union-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Philadelphia Union"
+  },
+  {
+   "id": "new-york-red-bulls",
+   "name": "New York Red Bulls",
+   "shortName": "NY",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/new-york-red-bulls/new-york-red-bulls-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de New York Red Bulls"
+  },
+  {
+   "id": "toronto-fc",
+   "name": "Toronto FC",
+   "shortName": "TF",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/toronto-fc/toronto-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Toronto FC"
+  },
+  {
+   "id": "austin-fc",
+   "name": "Austin FC",
+   "shortName": "AF",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/austin-fc/austin-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Austin FC"
+  },
+  {
+   "id": "colorado-rapids",
+   "name": "Colorado Rapids",
+   "shortName": "CR",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/colorado-rapids/colorado-rapids-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Colorado Rapids"
+  },
+  {
+   "id": "fc-dallas",
+   "name": "FC Dallas",
+   "shortName": "FD",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/fc-dallas/fc-dallas-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de FC Dallas"
+  },
+  {
+   "id": "houston-dynamo",
+   "name": "Houston Dynamo",
+   "shortName": "HD",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/houston-dynamo/houston-dynamo-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Houston Dynamo"
+  },
+  {
+   "id": "los-angeles-fc",
+   "name": "Los Angeles FC",
+   "shortName": "LA",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/los-angeles-fc/los-angeles-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Los Angeles FC"
+  },
+  {
+   "id": "la-galaxy",
+   "name": "LA Galaxy",
+   "shortName": "LG",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/la-galaxy/la-galaxy-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de LA Galaxy"
+  },
+  {
+   "id": "minnesota-united",
+   "name": "Minnesota United",
+   "shortName": "MU",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/minnesota-united/minnesota-united-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Minnesota United"
+  },
+  {
+   "id": "portland-timbers",
+   "name": "Portland Timbers",
+   "shortName": "PT",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/portland-timbers/portland-timbers-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Portland Timbers"
+  },
+  {
+   "id": "real-salt-lake",
+   "name": "Real Salt Lake",
+   "shortName": "RS",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/real-salt-lake/real-salt-lake-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Real Salt Lake"
+  },
+  {
+   "id": "st-louis-city-sc",
+   "name": "St. Louis City SC",
+   "shortName": "SL",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/st-louis-city-sc/st-louis-city-sc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de St. Louis City SC"
+  },
+  {
+   "id": "san-diego-fc",
+   "name": "San Diego FC",
+   "shortName": "SD",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/san-diego-fc/san-diego-fc-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de San Diego FC"
+  },
+  {
+   "id": "san-jose-earthquakes",
+   "name": "San Jose Earthquakes",
+   "shortName": "SJ",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/san-jose-earthquakes/san-jose-earthquakes-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de San Jose Earthquakes"
+  },
+  {
+   "id": "seattle-sounders",
+   "name": "Seattle Sounders",
+   "shortName": "SS",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/seattle-sounders/seattle-sounders-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Seattle Sounders"
+  },
+  {
+   "id": "sporting-kansas-city",
+   "name": "Sporting Kansas City",
+   "shortName": "SK",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/sporting-kansas-city/sporting-kansas-city-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Sporting Kansas City"
+  },
+  {
+   "id": "vancouver-whitecaps",
+   "name": "Vancouver Whitecaps",
+   "shortName": "VW",
+   "kind": "club",
+   "competitionIds": [
+    "mls"
+   ],
+   "imageUrl": "https://assets.footylogos.com/previews/vancouver-whitecaps/vancouver-whitecaps-logo-footylogos-320.webp",
+   "imageAlt": "Escudo de Vancouver Whitecaps"
+  },
+  {
+   "id": "nt-italia",
+   "name": "Italia",
+   "shortName": "ITA",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/it.png",
+   "imageAlt": "Bandera de Italia",
+   "legacy": true
+  },
+  {
+   "id": "nt-dinamarca",
+   "name": "Dinamarca",
+   "shortName": "DIN",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/dk.png",
+   "imageAlt": "Bandera de Dinamarca",
+   "legacy": true
+  },
+  {
+   "id": "nt-polonia",
+   "name": "Polonia",
+   "shortName": "POL",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/pl.png",
+   "imageAlt": "Bandera de Polonia",
+   "legacy": true
+  },
+  {
+   "id": "nt-gales",
+   "name": "Gales",
+   "shortName": "GAL",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/gb-wls.png",
+   "imageAlt": "Bandera de Gales",
+   "legacy": true
+  },
+  {
+   "id": "nt-irlanda",
+   "name": "Irlanda",
+   "shortName": "IRL",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/ie.png",
+   "imageAlt": "Bandera de Irlanda",
+   "legacy": true
+  },
+  {
+   "id": "nt-serbia",
+   "name": "Serbia",
+   "shortName": "SER",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/rs.png",
+   "imageAlt": "Bandera de Serbia",
+   "legacy": true
+  },
+  {
+   "id": "nt-ucrania",
+   "name": "Ucrania",
+   "shortName": "UCR",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/ua.png",
+   "imageAlt": "Bandera de Ucrania",
+   "legacy": true
+  },
+  {
+   "id": "nt-republica-checa",
+   "name": "República Checa",
+   "shortName": "REP",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/cz.png",
+   "imageAlt": "Bandera de República Checa",
+   "legacy": true
+  },
+  {
+   "id": "nt-hungria",
+   "name": "Hungría",
+   "shortName": "HUN",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/hu.png",
+   "imageAlt": "Bandera de Hungría",
+   "legacy": true
+  },
+  {
+   "id": "nt-chile",
+   "name": "Chile",
+   "shortName": "CHI",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/cl.png",
+   "imageAlt": "Bandera de Chile",
+   "legacy": true
+  },
+  {
+   "id": "nt-peru",
+   "name": "Perú",
+   "shortName": "PER",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/pe.png",
+   "imageAlt": "Bandera de Perú",
+   "legacy": true
+  },
+  {
+   "id": "nt-venezuela",
+   "name": "Venezuela",
+   "shortName": "VEN",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/ve.png",
+   "imageAlt": "Bandera de Venezuela",
+   "legacy": true
+  },
+  {
+   "id": "nt-bolivia",
+   "name": "Bolivia",
+   "shortName": "BOL",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/bo.png",
+   "imageAlt": "Bandera de Bolivia",
+   "legacy": true
+  },
+  {
+   "id": "nt-costa-rica",
+   "name": "Costa Rica",
+   "shortName": "COS",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/cr.png",
+   "imageAlt": "Bandera de Costa Rica",
+   "legacy": true
+  },
+  {
+   "id": "nt-nigeria",
+   "name": "Nigeria",
+   "shortName": "NIG",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/ng.png",
+   "imageAlt": "Bandera de Nigeria",
+   "legacy": true
+  },
+  {
+   "id": "nt-camerun",
+   "name": "Camerún",
+   "shortName": "CAM",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/cm.png",
+   "imageAlt": "Bandera de Camerún",
+   "legacy": true
+  },
+  {
+   "id": "nt-arabia-saudi",
+   "name": "Arabia Saudí",
+   "shortName": "ARA",
+   "kind": "national-team",
+   "competitionIds": [],
+   "imageUrl": "https://flagcdn.com/w320/sa.png",
+   "imageAlt": "Bandera de Arabia Saudí",
+   "legacy": true
+  },
+  {
+   "id": "club-girona-fc",
+   "name": "Girona FC",
+   "shortName": "GIR",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Girona FC",
+   "legacy": true
+  },
+  {
+   "id": "club-rcd-mallorca",
+   "name": "RCD Mallorca",
+   "shortName": "MLL",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de RCD Mallorca",
+   "legacy": true
+  },
+  {
+   "id": "club-real-oviedo",
+   "name": "Real Oviedo",
+   "shortName": "OVI",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Real Oviedo",
+   "legacy": true
+  },
+  {
+   "id": "club-burnley",
+   "name": "Burnley",
+   "shortName": "BUR",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Burnley",
+   "legacy": true
+  },
+  {
+   "id": "club-west-ham-united",
+   "name": "West Ham United",
+   "shortName": "WHU",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de West Ham United",
+   "legacy": true
+  },
+  {
+   "id": "club-wolverhampton-wanderers",
+   "name": "Wolverhampton Wanderers",
+   "shortName": "WOL",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Wolverhampton Wanderers",
+   "legacy": true
+  },
+  {
+   "id": "club-bayer-04-leverkusen",
+   "name": "Bayer 04 Leverkusen",
+   "shortName": "B04",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Bayer 04 Leverkusen",
+   "legacy": true
+  },
+  {
+   "id": "club-vfl-wolfsburg",
+   "name": "VfL Wolfsburg",
+   "shortName": "WOB",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de VfL Wolfsburg",
+   "legacy": true
+  },
+  {
+   "id": "club-fc-st-pauli",
+   "name": "FC St. Pauli",
+   "shortName": "STP",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de FC St. Pauli",
+   "legacy": true
+  },
+  {
+   "id": "club-1-fc-heidenheim",
+   "name": "1. FC Heidenheim",
+   "shortName": "HDH",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de 1. FC Heidenheim",
+   "legacy": true
+  },
+  {
+   "id": "club-hellas-verona",
+   "name": "Hellas Verona",
+   "shortName": "VER",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Hellas Verona",
+   "legacy": true
+  },
+  {
+   "id": "club-como",
+   "name": "Como",
+   "shortName": "COM",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Como",
+   "legacy": true
+  },
+  {
+   "id": "club-cremonese",
+   "name": "Cremonese",
+   "shortName": "CRE",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Cremonese",
+   "legacy": true
+  },
+  {
+   "id": "club-pisa",
+   "name": "Pisa",
+   "shortName": "PIS",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Pisa",
+   "legacy": true
+  },
+  {
+   "id": "club-fc-nantes",
+   "name": "FC Nantes",
+   "shortName": "NAN",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de FC Nantes",
+   "legacy": true
+  },
+  {
+   "id": "club-fc-metz",
+   "name": "FC Metz",
+   "shortName": "MET",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de FC Metz",
+   "legacy": true
+  },
+  {
+   "id": "club-sc-braga",
+   "name": "SC Braga",
+   "shortName": "BRA",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de SC Braga",
+   "legacy": true
+  },
+  {
+   "id": "club-ajax",
+   "name": "Ajax",
+   "shortName": "AJA",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Ajax",
+   "legacy": true
+  },
+  {
+   "id": "club-rangers",
+   "name": "Rangers",
+   "shortName": "RAN",
+   "kind": "club",
+   "competitionIds": [],
+   "imageUrl": null,
+   "imageAlt": "Escudo de Rangers",
+   "legacy": true
+  }
+ ]
+}
