@@ -56,7 +56,7 @@ export function createTournament(cfg) {
   return {
     id: newId('t'), name: cfg.name.trim(), competitionId: cfg.competitionId, format: cfg.format,
     status: 'draft', playerIds: [...cfg.playerIds], assignments: {}, groups: [], matches: [],
-    rules: normalizeRules(cfg.rules), lots: {}, koSeeds: null, knockoutProvisional: false,
+    onlyInGame: cfg.onlyInGame !== false, rules: normalizeRules(cfg.rules), lots: {}, koSeeds: null, knockoutProvisional: false,
     championId: null, createdAt: Date.now(), drawnAt: null, startedAt: null, finishedAt: null
   };
 }
@@ -66,7 +66,7 @@ export function updateConfig(t, cfg) {
   const errors = validateConfig(cfg);
   if (errors.length) fail(errors[0], 'INVALID_CONFIG', { errors });
   const nt = clone(t);
-  Object.assign(nt, { name: cfg.name.trim(), format: cfg.format, rules: normalizeRules(cfg.rules), playerIds: [...cfg.playerIds] });
+  Object.assign(nt, { name: cfg.name.trim(), format: cfg.format, rules: normalizeRules(cfg.rules), playerIds: [...cfg.playerIds], onlyInGame: cfg.onlyInGame !== false });
   if (nt.competitionId !== cfg.competitionId) { nt.competitionId = cfg.competitionId; nt.assignments = {}; }
   for (const pid of Object.keys(nt.assignments)) if (!nt.playerIds.includes(pid)) delete nt.assignments[pid];
   return nt;

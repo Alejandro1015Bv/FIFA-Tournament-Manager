@@ -4,9 +4,22 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "python3 -m http.server 8000",
     "test": "node tests/run-tests.js",
-    "test:ui": "node tests/ui-smoke.js",
-    "start": "python3 -m http.server 8000"
+    "test:ui": "node tests/ui-smoke.js && node tests/native-smoke.js && node tests/a11y-smoke.js && node tests/contrast.js",
+    "build:www": "node scripts/build-www.mjs",
+    "cap:sync": "npm run build:www && npx cap sync android",
+    "cap:open": "npx cap open android"
   },
-  "devDependencies": { "jsdom": "^26.0.0" }
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/share": "^8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "jsdom": "^26.0.0"
+  }
 }

@@ -1,3 +1,5 @@
+import { APP_CONFIG } from './app-config.js';
+
 let catalog = { competitions: [], teams: [] };
 export let catalogError = null;
 
@@ -20,8 +22,13 @@ export const getCompetitions = () => catalog.competitions;
 export const getCompetition = id => catalog.competitions.find(c => c.id === id);
 // Resuelve ids actuales y ids antiguos (aliases), para que los torneos guardados sigan mostrando su equipo.
 export const getTeam = id => catalog.teams.find(t => t.id === id) ?? catalog.teams.find(t => t.aliases?.includes(id));
-export const getTeamsByCompetition = compId =>
-  (getCompetition(compId)?.teamIds ?? []).map(getTeam).filter(Boolean);
+// Disponibilidad en el juego: 'yes' (con licencia), 'generic' (nombre/escudo genérico) o 'no' (no aparece).
+export const GAME = 'fc27';
+export const GAME_LABEL = 'EA SPORTS FC 27';
+export const gameStatus = team => team?.games?.[GAME] ?? 'yes';
+export const inGame = team => gameStatus(team) !== 'no';
+export const getTeamsByCompetition = (compId, { onlyInGame = false } = {}) =>
+  (getCompetition(compId)?.teamIds ?? []).map(getTeam).filter(Boolean).filter(t => !onlyInGame || inGame(t));
 
 // ---- imágenes: URL del catálogo → iniciales locales → escudo genérico
 export function initialsOf(text) {
@@ -37,20 +44,25 @@ export function initialsDataUri(text) {
   return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
 }
 const safeUrl = u => { try { return new URL(u).protocol === 'https:'; } catch { return false; } };
+// Con officialLogos=false no se piden logos de clubes a FootyLogos (se usan iniciales); las banderas de flagcdn se mantienen.
+export const remoteImageAllowed = u => safeUrl(u) && (APP_CONFIG.officialLogos || !/footylogos\.com/.test(u));
 
-export function teamBadge(team, { size = 32 } = {}) {
+// decorative:true → alt vacío (el nombre del equipo ya está en el texto contiguo). Mientras carga se ve un esqueleto.
+export function teamBadge(team, { size = 32, decorative = false } = {}) {
   const img = document.createElement('img');
-  img.className = 'team-badge';
+  img.className = 'team-badge is-loading';
   img.width = img.height = size;
   img.loading = 'lazy';
   img.decoding = 'async';
-  img.alt = team?.imageAlt ?? 'Sin equipo';
+  img.alt = decorative ? '' : (team?.imageAlt ?? 'Escudo genérico');
   let stage = 0;
+  img.addEventListener('load', () => img.classList.remove('is-loading'));
   img.addEventListener('error', () => {
+    img.classList.remove('is-loading');
     stage++;
     img.src = stage === 1 && team ? initialsDataUri(team.shortName || team.name) : 'assets/images/fallback-team.svg';
   });
   img.src = !team ? 'assets/images/fallback-team.svg'
-    : safeUrl(team.imageUrl) ? team.imageUrl : initialsDataUri(team.shortName || team.name);
+    : remoteImageAllowed(team.imageUrl) ? team.imageUrl : initialsDataUri(team.shortName || team.name);
   return img;
 }

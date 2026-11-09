@@ -1,5 +1,6 @@
 import { createInitialState } from './state.js';
 import { validateState } from './validation.js';
+import { shareFile } from './native.js';
 
 const KEY = 'fifa-tournament-manager:v1';
 export let lastLoadError = null;
@@ -29,11 +30,13 @@ export function load() {
 
 export { validateState as validate };
 
-export function exportJSON(state) {
+export async function exportJSON(state) {
+  const name = `fifa-tournament-${new Date().toISOString().slice(0, 10)}.json`;
+  if (await shareFile(name, JSON.stringify(state, null, 2), 'Copia de seguridad')) return;   // Android: menú Compartir
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
   const a = Object.assign(document.createElement('a'), {
     href: URL.createObjectURL(blob),
-    download: `fifa-tournament-${new Date().toISOString().slice(0, 10)}.json`
+    download: name
   });
   document.body.append(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);

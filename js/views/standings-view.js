@@ -1,22 +1,25 @@
-import { h, emptyCard, linkBtn } from '../ui.js';
+import { h, btn, emptyState } from '../ui.js';
 import { getState, FORMATS, TIEBREAK_PRESETS } from '../state.js';
 import { computeStandings, knockoutProgress } from '../standings.js';
-import { playerCell } from './shared.js';
+import { playerCell, noTournamentState } from './shared.js';
+import { copySummary } from '../share.js';
 
-function table(t, state, groupId, qualifiers = 0) {
-  const rows = computeStandings(t, groupId);
-  const head = ['#', 'Jugador', 'PJ', 'G', 'E', 'P', 'GF', 'GC', 'DG', 'Pts'];
-  return h('div', { class: 'table-wrap' }, h('table', { class: 'table' },
-    h('thead', {}, h('tr', {}, head.map((c, i) => h('th', { scope: 'col', class: i > 1 ? 'num' : '' }, c)))),
+const wrap = (label, table) => h('div', { class: 'table-wrap', tabindex: 0, role: 'region', 'aria-label': label }, table);
+
+function table(t, state, g, qualifiers = 0) {
+  const rows = computeStandings(t, g.id);
+  const head = [['#', 'Posición'], ['Jugador', 'Jugador'], ['PJ', 'Partidos jugados'], ['G', 'Ganados'], ['E', 'Empatados'], ['P', 'Perdidos'], ['GF', 'Goles a favor'], ['GC', 'Goles en contra'], ['DG', 'Diferencia de goles'], ['Pts', 'Puntos']];
+  return wrap(`Clasificación ${g.name}`, h('table', { class: 'table' }, h('caption', { class: 'sr-only' }, `Clasificación de ${g.name}`),
+    h('thead', {}, h('tr', {}, head.map(([c, full], i) => h('th', { scope: 'col', class: i > 1 ? 'num' : '' }, h('abbr', { title: full }, c))))),
     h('tbody', {}, rows.map(r => h('tr', { class: r.position <= qualifiers ? 'qualified' : '' },
-      h('td', {}, String(r.position)), h('td', {}, playerCell(t, state, r.playerId, { size: 24 }), r.byLot ? h('small', { class: 'muted', title: 'Empate total: decidido por sorteo' }, ' 🎲') : null),
+      h('td', {}, String(r.position), r.position <= qualifiers ? h('span', { class: 'sr-only' }, ' (clasifica)') : null),
+      h('td', {}, playerCell(t, state, r.playerId, { size: 24 }), r.byLot ? h('small', { class: 'muted' }, ' · sorteo') : null),
       ...[r.played, r.won, r.drawn, r.lost, r.gf, r.ga, r.gd > 0 ? `+${r.gd}` : r.gd, r.pts].map((v, i) => h('td', { class: 'num' + (i === 7 ? ' pts' : '') }, String(v))))))));
 }
-
 function progressTable(t, state) {
   const rows = knockoutProgress(t);
-  const LABEL = { champion: '🏆 Campeón', active: 'En competición', eliminated: 'Eliminado' };
-  return h('div', { class: 'table-wrap' }, h('table', { class: 'table' },
+  const LABEL = { champion: 'Campeón', active: 'En competición', eliminated: 'Eliminado' };
+  return wrap('Progreso en el cuadro', h('table', { class: 'table' }, h('caption', { class: 'sr-only' }, 'Progreso de cada jugador en el cuadro'),
     h('thead', {}, h('tr', {}, ['Jugador', 'Estado', 'Ronda', 'PJ', 'G', 'P', 'GF', 'GC'].map((c, i) => h('th', { scope: 'col', class: i > 2 ? 'num' : '' }, c)))),
     h('tbody', {}, rows.map(r => h('tr', { class: r.stage }, h('td', {}, playerCell(t, state, r.playerId, { size: 24 })), h('td', {}, LABEL[r.stage]),
       h('td', {}, r.stage === 'eliminated' ? r.eliminatedIn : r.roundName),
@@ -25,13 +28,15 @@ function progressTable(t, state) {
 
 export function render(container) {
   const state = getState(), t = state.tournament;
-  if (!t) { container.append(emptyCard('No hay ningún torneo activo.', linkBtn('Configurar torneo', 'configuracion'))); return; }
-  if (!t.matches.length) { container.append(emptyCard('La clasificación aparecerá cuando se sortee el calendario.', linkBtn('Ir a Sorteos', 'sorteos'))); return; }
-  const order = TIEBREAK_PRESETS && Object.values(TIEBREAK_PRESETS).find(p => p.order.join() === t.rules.tiebreakers.join())?.label;
-  const rulesNote = h('p', { class: 'muted' }, `Puntos: victoria ${t.rules.win}, empate ${t.rules.draw}, derrota ${t.rules.loss}. Desempate: ${order ?? t.rules.tiebreakers.join(' › ')}. Solo cuentan los partidos finalizados.`);
-  if (t.format === FORMATS.KNOCKOUT) { container.append(h('div', { class: 'card' }, h('h2', {}, 'Progreso en el cuadro'), progressTable(t, state))); return; }
+  if (!t) { container.append(noTournamentState()); return; }
+  if (!t.matches.length) { container.append(emptyState({ icon: 'chart', title: 'Sin clasificación todavía', text: 'Aparecerá cuando se sortee el calendario.', actions: [btn('Ir a Sorteos', { href: 'sorteos', icon: 'dice' })] })); return; }
+  const share = btn('Compartir resumen', { variant: 'ghost', icon: 'share', onClick: () => copySummary(t, state) });
+  if (t.format === FORMATS.KNOCKOUT) { container.append(h('div', { class: 'actions' }, share), h('section', { class: 'card' }, h('h2', {}, 'Progreso en el cuadro'), progressTable(t, state))); return; }
+  const order = Object.values(TIEBREAK_PRESETS).find(p => p.order.join() === t.rules.tiebreakers.join())?.label ?? t.rules.tiebreakers.join(' › ');
   const q = t.format === FORMATS.GROUPS ? t.rules.qualifiersPerGroup : 0;
-  container.append(rulesNote, ...t.groups.map(g => h('div', { class: 'card' }, h('h2', {}, g.name), table(t, state, g.id, q))));
-  if (q) container.append(h('p', { class: 'muted' }, `Las filas resaltadas clasifican a la fase eliminatoria (${q} por grupo).`));
-  if (t.matches.some(m => m.stage === 'knockout')) container.append(h('div', { class: 'card' }, h('h2', {}, 'Progreso en eliminatorias'), progressTable(t, state)));
+  container.append(h('div', { class: 'actions between' },
+    h('details', {}, h('summary', {}, 'Reglas de puntos y desempate'), h('p', { class: 'note' }, `Victoria ${t.rules.win}, empate ${t.rules.draw}, derrota ${t.rules.loss}. ${order}. Solo cuentan partidos finalizados.`)), share),
+    ...t.groups.map(g => h('section', { class: 'card' }, h('h2', {}, g.name), table(t, state, g, q))));
+  if (q) container.append(h('p', { class: 'note' }, `Las filas resaltadas clasifican (${q} por grupo).`));
+  if (t.matches.some(m => m.stage === 'knockout')) container.append(h('section', { class: 'card' }, h('h2', {}, 'Eliminatorias'), progressTable(t, state)));
 }

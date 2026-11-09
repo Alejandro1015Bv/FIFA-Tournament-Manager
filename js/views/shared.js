@@ -1,4 +1,4 @@
-import { h, openDialog, shortId } from '../ui.js';
+import { h, openDialog, btn, emptyState } from '../ui.js';
 import { getTeam, teamBadge } from '../teams.js';
 import { recordWithConfirm } from '../actions.js';
 import { KO_TIEBREAK_LABELS } from '../state.js';
@@ -9,10 +9,12 @@ export const teamOfPlayer = (t, id) => (t?.assignments?.[id] ? getTeam(t.assignm
 export const canRecord = (t, m) =>
   ['in-progress', 'finished'].includes(t.status) && m.homeId && m.awayId && !m.bye && !(m.stage === 'knockout' && t.knockoutProvisional);
 
+export const noTournamentState = () => emptyState({ icon: 'trophy', title: 'No hay torneo activo', text: 'Crea uno para empezar.', actions: [btn('Crear torneo', { href: 'configuracion', icon: 'plus' })] });
+
 export function playerCell(t, state, id, { size = 28 } = {}) {
   const team = teamOfPlayer(t, id);
   return h('span', { class: 'who' },
-    teamBadge(team, { size }),
+    teamBadge(team, { size, decorative: true }),
     h('span', { class: 'who-text' }, h('strong', {}, playerName(state, id)), h('small', { class: 'muted' }, team?.name ?? 'Sin equipo')));
 }
 
@@ -29,8 +31,9 @@ function side(t, state, m, which) {
   const done = m.status === 'done';
   const cls = ['side', done && m.winnerId === pid ? 'winner' : '', done && m.stage === 'knockout' && m.winnerId && m.winnerId !== pid ? 'loser' : ''].join(' ').trim();
   const pens = m.tiebreak && m.tiebreak.homePens !== undefined ? (which === 'home' ? m.tiebreak.homePens : m.tiebreak.awayPens) : null;
-  return h('div', { class: cls }, playerCell(t, state, pid),
-    h('span', { class: 'goals' }, goals ?? '–', pens !== null ? h('small', { class: 'pens' }, ` (${pens})`) : null));
+  const won = done && m.winnerId === pid;
+  return h('div', { class: cls }, playerCell(t, state, pid), won ? h('span', { class: 'sr-only' }, '(ganador)') : null,
+    h('span', { class: 'goals', 'aria-label': goals === null ? 'sin marcador' : `${goals} goles` }, goals ?? '–', pens !== null ? h('small', { class: 'pens' }, ` (${pens})`) : null));
 }
 
 function tiebreakText(m, state) {
@@ -43,15 +46,16 @@ function tiebreakText(m, state) {
 export function matchCard(t, state, m, opts = {}) {
   const status = m.bye ? 'bye' : m.status;
   const editable = !opts.readOnly && canRecord(t, m);
-  return h('article', { class: `match ${status}`, dataset: { matchId: m.id } },
+  const label = m.homeId && m.awayId ? `${playerName(state, m.homeId)} contra ${playerName(state, m.awayId)}` : matchLabel(t, m);
+  return h('article', { class: `match ${status}`, dataset: { matchId: m.id }, 'aria-label': label },
     h('header', { class: 'match-head' },
       h('span', { class: 'match-id', title: m.id }, opts.compact ? `#${m.index + 1}` : matchLabel(t, m)),
       h('span', { class: `status ${status}` }, m.bye ? 'Pase automático' : STATUS_LABEL[m.status])),
     side(t, state, m, 'home'), side(t, state, m, 'away'),
     m.tiebreak ? h('div', { class: 'match-note' }, tiebreakText(m, state)) : null,
     m.notes ? h('div', { class: 'match-note muted' }, m.notes) : null,
-    editable ? h('button', { class: 'btn small secondary', type: 'button', onClick: () => openResultDialog(t, state, m) },
-      m.status === 'pending' ? 'Registrar resultado' : 'Editar resultado') : null);
+    editable ? btn(m.status === 'pending' ? 'Registrar resultado' : 'Editar resultado', { variant: m.status === 'pending' ? 'primary' : 'secondary', size: 'small',
+      ariaLabel: `${m.status === 'pending' ? 'Registrar' : 'Editar'} resultado: ${label}`, onClick: () => openResultDialog(t, state, m) }) : null);
 }
 
 export function openResultDialog(t, state, m) {
@@ -100,8 +104,6 @@ export function openResultDialog(t, state, m) {
         h('label', { class: 'field' }, h('span', {}, `Goles ${playerName(state, m.homeId)}`), hg),
         h('label', { class: 'field' }, h('span', {}, `Goles ${playerName(state, m.awayId)}`), ag)),
       tieBox, h('label', { class: 'field' }, h('span', {}, 'Observaciones'), notes), err,
-      h('div', { class: 'dialog-actions' },
-        h('button', { class: 'btn secondary', type: 'button', onClick: () => close(false) }, 'Cancelar'),
-        h('button', { class: 'btn', type: 'submit' }, 'Guardar')));
+      h('div', { class: 'dialog-actions' }, btn('Cancelar', { variant: 'secondary', onClick: () => close(false) }), btn('Guardar', { type: 'submit' })));
   });
 }

@@ -9,7 +9,7 @@ export function renderCalendar(t, state, opts = {}) {
   if (!groups.length) return h('p', { class: 'muted' }, 'Todavía no hay calendario.');
   const cur = groups.find(g => g.id === active[t.id]) ?? groups[0];
   const tabs = groups.length > 1 ? h('div', { class: 'tabs', role: 'tablist' }, groups.map(g =>
-    h('button', { class: 'tab' + (g.id === cur.id ? ' on' : ''), role: 'tab', 'aria-selected': g.id === cur.id, type: 'button',
+    h('button', { class: 'tab' + (g.id === cur.id ? ' on' : ''), role: 'tab', 'aria-selected': String(g.id === cur.id), type: 'button',
       onClick: () => { active[t.id] = g.id; rerender(); } }, g.name))) : null;
   const byId = new Map(t.matches.map(m => [m.id, m]));
   return h('div', { class: 'calendar' }, tabs,

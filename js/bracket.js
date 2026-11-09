@@ -11,5 +11,5 @@ export function renderBracket(t, state, opts = {}) {
       h('h3', {}, ms[0].roundName),
       h('div', { class: 'ties' }, ms.map(m => h('div', { class: 'tie' }, matchCard(t, state, m, { ...opts, compact: true })))));
   });
-  return h('div', { class: 'bracket-scroll', tabindex: 0, 'aria-label': 'Cuadro de eliminatorias' }, h('div', { class: 'bracket' }, cols));
+  return h('div', { class: 'bracket-scroll', tabindex: 0, role: 'region', 'aria-label': 'Cuadro de eliminatorias (desliza para ver las rondas)' }, h('div', { class: 'bracket' }, cols));
 }

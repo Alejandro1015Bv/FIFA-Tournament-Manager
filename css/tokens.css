@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Tokens de diseño — única fuente de verdad de color, tipografía, espaciado,
+   bordes, sombras, movimiento y tamaños. Ningún otro CSS usa valores sueltos.
+   Temas: oscuro (por defecto), claro, y "auto" (sigue al sistema).
+   ========================================================================== */
+:root {
+  /* Tipografía */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --text-xs: .75rem; --text-sm: .875rem; --text-md: 1rem; --text-lg: 1.125rem;
+  --text-xl: 1.25rem; --text-2xl: 1.5rem; --text-3xl: 1.875rem;
+  --weight-regular: 400; --weight-medium: 500; --weight-semibold: 600; --weight-bold: 700;
+  --leading-tight: 1.2; --leading-normal: 1.5;
+
+  /* Espaciado (escala de 4 px) */
+  --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem;
+  --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem;
+
+  /* Bordes */
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 16px; --radius-full: 999px;
+  --border-width: 1px; --focus-width: 3px;
+
+  /* Movimiento */
+  --dur-fast: 120ms; --dur-med: 220ms; --ease: cubic-bezier(.2, .7, .2, 1);
+
+  /* Tamaños y capas */
+  --tap: 44px;               /* objetivo táctil mínimo */
+  --control-h: 44px;
+  --sidebar-w: 16.5rem; --bottom-nav-h: 4rem; --content-max: 75rem;
+  --z-nav: 20; --z-sheet: 40; --z-toast: 60;
+  --ad-h: 0px;               /* alto del banner nativo (lo rellena ads.js) */
+
+  /* Breakpoints de referencia (CSS no admite var() en @media): móvil < 768 · tablet 768–1279 · escritorio ≥ 1280 */
+}
+
+/* ---- Tema oscuro (por defecto) ---- */
+:root, :root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b111b;
+  --surface: #121a28;
+  --surface-2: #182236;
+  --surface-3: #212e47;
+  --border: #2b3b57;
+  --border-strong: #6b7f9f;        /* bordes de controles (≥ 3:1) */
+  --text: #e9eff9;
+  --text-muted: #a3b2cb;
+  --text-on-primary: #04130c;
+  --primary: #22c585;
+  --primary-hover: #3bd79a;
+  --primary-active: #17a86f;
+  --primary-soft: rgba(34, 197, 133, .14);
+  --primary-text: #3ddc9f;         /* texto/enlaces sobre fondos oscuros */
+  --info: #7db4ff; --info-soft: rgba(125, 180, 255, .14);
+  --success: #3ddc9f; --success-soft: rgba(61, 220, 159, .14);
+  --warning: #fbbf24; --warning-soft: rgba(251, 191, 36, .14);
+  --danger: #ff8b8b; --danger-soft: rgba(255, 139, 139, .14);
+  --danger-solid: #dc2626; --text-on-danger: #ffffff;
+  --focus: #8ec5ff;
+  --overlay: rgba(2, 6, 14, .72);
+  --skeleton-a: #182236; --skeleton-b: #243453;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, .38);
+  --shadow-lg: 0 18px 48px rgba(0, 0, 0, .5);
+}
+
+/* ---- Tema claro ---- */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f3f6fb;
+  --surface: #ffffff;
+  --surface-2: #eef2f9;
+  --surface-3: #e2e9f4;
+  --border: #d3dbe9;
+  --border-strong: #78879f;
+  --text: #0e1a2f;
+  --text-muted: #47566f;
+  --text-on-primary: #ffffff;
+  --primary: #0b7a4d;
+  --primary-hover: #0a6a43;
+  --primary-active: #085a39;
+  --primary-soft: rgba(11, 122, 77, .10);
+  --primary-text: #0a6a43;
+  --info: #1d4ed8; --info-soft: rgba(29, 78, 216, .09);
+  --success: #0a6a43; --success-soft: rgba(10, 106, 67, .10);
+  --warning: #8a5300; --warning-soft: rgba(176, 107, 0, .13);
+  --danger: #b42318; --danger-soft: rgba(180, 35, 24, .09);
+  --danger-solid: #b42318; --text-on-danger: #ffffff;
+  --focus: #1d4ed8;
+  --overlay: rgba(14, 26, 47, .55);
+  --skeleton-a: #e2e9f4; --skeleton-b: #f3f6fb;
+  --shadow-sm: 0 1px 2px rgba(14, 26, 47, .08);
+  --shadow-md: 0 6px 18px rgba(14, 26, 47, .10);
+  --shadow-lg: 0 18px 48px rgba(14, 26, 47, .18);
+}
+
+/* ---- "Auto": sigue la preferencia del sistema cuando no hay tema fijado ---- */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --bg: #f3f6fb; --surface: #ffffff; --surface-2: #eef2f9; --surface-3: #e2e9f4;
+    --border: #d3dbe9; --border-strong: #78879f; --text: #0e1a2f; --text-muted: #47566f;
+    --text-on-primary: #ffffff; --primary: #0b7a4d; --primary-hover: #0a6a43; --primary-active: #085a39;
+    --primary-soft: rgba(11, 122, 77, .10); --primary-text: #0a6a43;
+    --info: #1d4ed8; --info-soft: rgba(29, 78, 216, .09); --success: #0a6a43; --success-soft: rgba(10, 106, 67, .10);
+    --warning: #8a5300; --warning-soft: rgba(176, 107, 0, .13); --danger: #b42318; --danger-soft: rgba(180, 35, 24, .09);
+    --danger-solid: #b42318; --text-on-danger: #ffffff; --focus: #1d4ed8; --overlay: rgba(14, 26, 47, .55);
+    --skeleton-a: #e2e9f4; --skeleton-b: #f3f6fb;
+    --shadow-sm: 0 1px 2px rgba(14, 26, 47, .08); --shadow-md: 0 6px 18px rgba(14, 26, 47, .10); --shadow-lg: 0 18px 48px rgba(14, 26, 47, .18);
+  }
+}

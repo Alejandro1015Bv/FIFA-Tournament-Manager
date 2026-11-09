@@ -429,11 +429,12 @@ const TEAMS = JSON.parse(fs.readFileSync(new URL('../data/teams.json', import.me
 setCatalog(COMPS, TEAMS);
 test('las 10 competiciones pedidas con el número de equipos esperado', () => {
   const n = Object.fromEntries(getCompetitions().map(c => [c.id, getTeamsByCompetition(c.id).length]));
-  assert.deepEqual(n, { 'world-cup': 48, ucl: 36, uel: 36, libertadores: 32, laliga: 20, 'premier-league': 20, bundesliga: 18, 'serie-a': 20, 'ligue-1': 18, mls: 30 });
+  assert.deepEqual(n, { 'world-cup': 48, 'national-teams': 51, ucl: 36, uel: 36, libertadores: 32, laliga: 20, 'premier-league': 20, bundesliga: 18, 'serie-a': 20, 'ligue-1': 18, mls: 30 });
 });
-test('todos los equipos de competición usan un logo https de FootyLogos', () => {
-  for (const c of getCompetitions()) for (const t of getTeamsByCompetition(c.id))
-    assert.match(t.imageUrl, /^https:\/\/assets\.footylogos\.com\/previews\/([a-z0-9-]+)\/\1-logo-footylogos-320\.webp$/, t.id);
+test('todos los equipos usan un logo https de FootyLogos (o bandera de flagcdn)', () => {
+  for (const c of getCompetitions()) for (const t of getTeamsByCompetition(c.id)) {
+    if (t.id.startsWith('flag-')) { assert.match(t.imageUrl, /^https:\/\/flagcdn\.com\/w320\/[a-z-]+\.png$/, t.id); continue; }
+    assert.match(t.imageUrl, /^https:\/\/assets\.footylogos\.com\/previews\/([a-z0-9-]+)\/\1-logo-footylogos-320\.webp$/, t.id); }
 });
 test('un equipo en varias competiciones es el mismo (Real Madrid: LaLiga y Champions)', () => {
   const rm = getTeam('real-madrid');
@@ -442,7 +443,42 @@ test('un equipo en varias competiciones es el mismo (Real Madrid: LaLiga y Champ
 test('los ids antiguos de torneos guardados siguen resolviéndose', () => {
   assert.equal(getTeam('nt-argentina').id, 'argentina-national-team');
   assert.equal(getTeam('club-real-madrid').id, 'real-madrid');
-  assert.equal(getTeam('nt-italia').legacy, true);
+  assert.equal(getTeam('nt-italia').id, 'flag-it');
+  assert.equal(getTeam('nt-chile').id, 'flag-cl');
+  assert.equal(getTeam('nt-costa-rica').legacy, true);
+});
+test('disponibilidad en EA FC 27 por competición', () => {
+  const avail = c => getTeamsByCompetition(c, { onlyInGame: true }).length;
+  assert.deepEqual(Object.fromEntries(getCompetitions().map(c => [c.id, avail(c.id)])),
+    { 'world-cup': 32, 'national-teams': 51, ucl: 34, uel: 30, libertadores: 6, laliga: 20, 'premier-league': 20, bundesliga: 18, 'serie-a': 20, 'ligue-1': 18, mls: 30 });
+});
+test('equipos concretos: no disponibles y con nombre genérico', () => {
+  assert.equal(getTeam('canada-national-team').games.fc27, 'no');
+  assert.equal(getTeam('ecuador-national-team').games.fc27, 'no');
+  assert.equal(getTeam('brazil-national-team').games.fc27, 'yes');
+  assert.equal(getTeam('flamengo').games.fc27, 'no');
+  assert.equal(getTeam('boca-juniors').games.fc27, 'yes');
+  assert.equal(getTeam('inter-milan').inGameName, 'Lombardia FC');
+  assert.equal(getTeam('juventus').games.fc27, 'yes');
+});
+test('torneo con filtro de juego: solo se sortean equipos disponibles', () => {
+  const pool = getTeamsByCompetition('ucl', { onlyInGame: true }).map(t => t.id);
+  assert.ok(!pool.includes('sabah-fk') && !pool.includes('sk-slovan-bratislava'));
+  let t = E.createTournament({ name: 'x', competitionId: 'ucl', format: FORMATS.KNOCKOUT, playerIds: ids(8) });
+  assert.equal(t.onlyInGame, true);
+  t = E.assignTeams(t, pool);
+  assert.ok(Object.values(t.assignments).every(a => pool.includes(a.teamId)));
+  const t2 = E.createTournament({ name: 'x', competitionId: 'ucl', format: FORMATS.KNOCKOUT, playerIds: ids(8), onlyInGame: false });
+  assert.equal(t2.onlyInGame, false);
+});
+test('resumen de texto del torneo', async () => {
+  const { summaryText } = await import('../js/share.js');
+  let t = started(4, FORMATS.ROUND_ROBIN);
+  t = lowWins(t, t.matches[0]);
+  const txt = summaryText(t, { players: ids(4).map(id => ({ id, name: 'Jug ' + id })) });
+  assert.match(txt, /Liguilla|Todos contra todos/); assert.match(txt, /pts/);
+  const k = playAllKnockout(started(4, FORMATS.KNOCKOUT));
+  assert.match(summaryText(k, { players: ids(4).map(id => ({ id, name: 'Jug ' + id })) }), /Campeón: Jug p0/);
 });
 
 console.log(`\n${passed} pruebas correctas, ${failed} con fallos`);

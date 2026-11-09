@@ -44,27 +44,41 @@ js/players.js · teams.js · randomizer.js (Fisher-Yates + crypto.getRandomValue
 js/bracket.js · calendar.js · ui.js · actions.js
 js/views/*.js        una vista por sección
 data/competitions.json · teams.json
-tests/run-tests.js   50 pruebas del motor y del catálogo     → npm test
-tests/ui-smoke.js    prueba de interfaz (jsdom) → npm install && npm run test:ui
+tests/run-tests.js   54 pruebas del motor y del catálogo     → npm test
+tests/ui-smoke.js · native-smoke.js · a11y-smoke.js · contrast.js   interfaz, capa Android, accesibilidad/estados y contraste → npm install && npm run test:ui
 ```
 
-## Catálogo y escudos
+## Catálogo, escudos y disponibilidad en EA FC 27
 
-Los logos y las plantillas salen de [FootyLogos](https://www.footylogos.com/es) (páginas consultadas el 12-oct-2026). 10 competiciones, 245 equipos:
+Los logos y plantillas salen de [FootyLogos](https://www.footylogos.com/es) (temporadas 2026-27 / Mundial 2026, leídas el 12-oct-2026). La disponibilidad en el juego sale de la lista final de [fifauteam.com](https://fifauteam.com/fc-27-leagues-clubs-national-teams/) para **EA SPORTS FC 27** (15-oct-2026). Cada equipo tiene `games.fc27`: `yes` (con licencia), `generic` (nombre/escudo genérico en el juego) o `no` (no aparece).
 
-| Competición | Equipos | Competición | Equipos |
-|---|---|---|---|
-| Mundial 2026 | 48 | Premier League 2026-27 | 20 |
-| Champions League 2026-27 | 36 | Bundesliga 2026-27 | 18 |
-| Europa League 2026-27 | 36 | Serie A 2026-27 | 20 |
-| Copa Libertadores 2026 | 32 | Ligue 1 2026-27 | 18 |
-| LaLiga 2026-27 | 20 | MLS 2026 | 30 |
+| Competición | En catálogo | Disponibles en FC 27 |
+|---|---|---|
+| Mundial 2026 | 48 | 32 |
+| Selecciones nacionales (todas las de FC 27) | 51 | 51 |
+| Champions League | 36 | 34 |
+| Europa League | 36 | 30 |
+| Copa Libertadores | 32 | 6 |
+| LaLiga · Premier · Bundesliga · Serie A · Ligue 1 · MLS | 20 · 20 · 18 · 20 · 18 · 30 | todos |
 
-- Cada equipo usa `https://assets.footylogos.com/previews/<slug>/<slug>-logo-footylogos-320.webp` (URL tomada de las páginas de FootyLogos, no inventada). Un club presente en varias competiciones es **un único equipo** (p. ej. Real Madrid en LaLiga y Champions).
-- Si un logo no carga se muestran las iniciales del equipo (y, como último recurso, un escudo genérico).
-- Los logos son marcas de sus titulares; se enlazan desde la CDN de FootyLogos (la app necesita conexión para verlos).
-- **Torneos guardados antes del cambio**: los ids antiguos se resuelven por `aliases`, y los equipos que ya no están en ninguna competición (p. ej. Italia) se conservan como `legacy: true` solo para que sigan mostrándose.
-- No se garantiza que cada equipo esté en una edición concreta de EA SPORTS FC: edita `data/competitions.json` / `data/teams.json` para ajustar.
+- Los torneos nuevos sortean **solo equipos disponibles en FC 27** (se puede desmarcar en el paso 1 del asistente y en la vista Equipos).
+- Serie A: Inter, Milan, Atalanta y Monza aparecen en el juego con nombre y escudo genéricos (p. ej. «Lombardia FC»); la app lo avisa.
+- Libertadores: solo 6 clubes (argentinos) figuran en la lista de clubes de FC 27; los demás pueden aparecer solo dentro de la competición con plantillas genéricas, así que no se consideran disponibles.
+- Las 19 selecciones de FC 27 que no juegan el Mundial usan banderas de `flagcdn.com` (ids `flag-xx`).
+- **Solo está verificado FC 27.** FC 24, FC 25 y FC 26 no se han revisado equipo por equipo; el campo `games` admite añadir más ediciones.
+- Si un logo no carga se muestran las iniciales. Los torneos guardados antes siguen funcionando (ids antiguos por `aliases`; equipos descartados como `legacy`).
+
+## Extras
+
+- **Copiar resumen**: texto con clasificación/cuadro y campeón, listo para pegar en WhatsApp (Inicio y Clasificación).
+
+## Interfaz
+
+Sistema de diseño con tokens, tema claro/oscuro/automático, diseño responsive (móvil, tablet, escritorio), esqueletos de carga, estados vacíos/error y accesibilidad: ver **`docs/sistema-de-diseno.md`**.
+
+## Versión Android
+
+Preparada con Capacitor siguiendo el *Archivo Maestro*: `capacitor.config.json`, `scripts/build-www.mjs`, botón Atrás, exportar con *Compartir*, áreas seguras y banner opcional (desactivado). Guía completa, riesgos y pasos: **`docs/guia-android.md`**. Borradores: `docs/politica-de-privacidad.md` y `docs/ficha-google-play.md`. Interruptores en `js/app-config.js` (`appName`, `officialLogos`, `ads`).
 
 ## Pruebas
 
